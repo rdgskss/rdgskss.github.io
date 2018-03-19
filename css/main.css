@@ -165,6 +165,7 @@ ol.splitColumn {
     column-count: 2;
     column-gap: 20px;
     font-size: 1.2em;
+    margin-bottom: 67px;
 }
 
 #content.wrap>p.large {
