@@ -21,7 +21,7 @@ address {font-style: normal;padding-bottom: 15px;}
 /*******************************************************************************************************************
 *  LINKS                                                                                                           
 *******************************************************************************************************************/
-a, a:link, a:focus {color: purple; outline: 0;text-decoration: underline} /* color */
+a, a:link, a:focus {color: purple; outline: 0;text-decoration: none} /* color */
 a:hover {color: #000;text-decoration: underline}
 a.more {padding-right: 15px;color: #000;background: url('../img/arrow.png') no-repeat 100% 50%}
 
@@ -118,3 +118,61 @@ a.photo:hover img {border-color: #d1d1d1}
 .col3-4 {width: 700px;float: right}
 .marginBottom30 {margin-bottom: 30px}
 .date {font-size: 11px;display: block;margin-bottom: 10px }
+
+/*******************************************************************************************************************
+*  Added by G.Lungley
+*******************************************************************************************************************/
+#intro p {
+	margin-bottom: 40px;
+}
+.quote {
+	quotes: "\201C" "\201D" "\2018" "\2019";
+	font-style: italic;
+}
+
+.quote:before {
+    content: open-quote;
+}
+.quote:after {
+    content: close-quote;
+}
+
+#subIntro .para {
+	margin-bottom: 30px;
+}
+
+#subIntro h2 {
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+li>h3 {
+	font-size: 1.0em;
+	font-weight: 400;
+	margin-bottom: 2px;
+}
+
+#subIntro p.large{
+	color: #6e8bc5;
+	margin-bottom: 0px;
+}
+
+ol.splitColumn {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+    font-size: 1.2em;
+}
+
+#content.wrap>p.large {
+	margin-bottom: 0px;
+}
+
+p.large a {
+	font-size: 1.4em;
+	margin-bottom: 3em;
+	display: inline-block;
+}
